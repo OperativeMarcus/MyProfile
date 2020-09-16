@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    
-    <script>
-        var d = new Date();
-        document.getElementById("currentYear").innerhtml = d;
-    </script>
-    
+
 </head>
 <body>
     <header>
+        <h1>Marcus Keily</h1>
+    </header>
+
+    <h1></h1>
+    <p>
+        Welcome to the website I have designed for assessment 1 of the RMIT Introduction to IT unit. <br>
+        You can use the following menu to sort through each specification of the assessment:
         <nav>
             <ul>
             <li><strong><a href="index.html">Home</a></strong></li>
@@ -23,14 +25,18 @@
             <li><a href="project_idea.html">Project Idea</a></li>
             </ul>
         </nav>
-    </header>
 
-    
+    </p>
 
     <footer>
         <p id="currentYear"></p>  
     </footer>
 
+    <script>
+        var d = new Date().getFullYear();
+        d = "&#169; " + d + " Marcus Keily";
+        document.getElementById("currentYear").innerHTML = d;
+    </script>
 
 </body>
 </html>
