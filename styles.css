@@ -20,11 +20,11 @@ a {
     display: inline;
     color: whitesmoke;
     padding: 10px;
-    width: 1000px;
     background-color: #5da5f7;
     border-radius: 20px;
     position: relative;
     text-decoration: none;
+    word-wrap: break-word;
 }
 
 a:hover {
